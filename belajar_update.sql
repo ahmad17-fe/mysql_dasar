@@ -43,17 +43,21 @@ SET
   description = 'Mie Ayam dengan toping tambahan ceker'
 WHERE
   id = 'P0003';
-  
-UPDATE 
-	products
-SET
-	price = price + 5000
-WHERE
-	id = 'P0005'
 
+UPDATE
+  products
+SET
+  price = price + 5000
+WHERE
+  id = 'P0005'
 SELECT
   *
 FROM
   products;
 
-SELECT * FROM products WHERE category IS NULL;
+SELECT
+  *
+FROM
+  products
+WHERE
+  category IS NULL;
