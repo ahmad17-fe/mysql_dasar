@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-08-21T17:44:15.972Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="alznUadT9W_UMpHh2_kn" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-08-21T17:47:30.344Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="S1S6cBjVatQfxSR2aZGn" version="24.4.8" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2146" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -176,6 +176,12 @@
         </mxCell>
         <mxCell id="kRdknVeunTlpAdydeb-4-58" value="&lt;u&gt;SKU&lt;/u&gt;" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRdknVeunTlpAdydeb-4-62" value="Jumlah" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="809" y="111" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kRdknVeunTlpAdydeb-4-63" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.008;entryY=0.463;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="kRdknVeunTlpAdydeb-4-62" target="kRdknVeunTlpAdydeb-4-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
