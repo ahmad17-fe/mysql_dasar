@@ -1,4 +1,4 @@
-@startuml
+@startuml belajar_mysql
 
 entity Pembeli {
     email : text <PK>
