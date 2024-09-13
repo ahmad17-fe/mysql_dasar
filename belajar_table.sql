@@ -6,6 +6,8 @@ CREATE DATABASE barang;
 
 SHOW DATABASES;
 
+USE barang;
+
 SHOW TABLES;
 
 CREATE TABLE barang (

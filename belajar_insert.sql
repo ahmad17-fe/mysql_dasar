@@ -16,10 +16,17 @@ SHOW TABLES;
 
 DESC products;
 
-INSERT INTO
-  products (id, name, price, quantity)
+INSERT
+	INTO
+	products (id,
+	name,
+	price,
+	quantity)
 VALUES
-  ('P001', 'Mie Ayam Original', 15000, 100),
+  ('P001',
+'Mie Ayam Original',
+15000,
+100),
   (
     'P002',
     'Mie Ayam Original + Bakso Tahu',
@@ -30,19 +37,35 @@ VALUES
 TRUNCATE
   products;
 
-INSERT INTO
-  products (id, name, price, quantity)
+INSERT
+	INTO
+	products (id,
+	name,
+	price,
+	quantity)
 VALUES
-  ('P0001', 'Mie Ayam Original', 15000, 100),
+  ('P0001',
+'Mie Ayam Original',
+15000,
+100),
   (
     'P0002',
     'Mie Ayam Original + Bakso Tahu',
     20000,
     100
   ),
-  ('P0003', 'Mie Ayam Ceker', 20000, 100),
-  ('P0004', 'Mie Ayam Spesial', 25000, 100),
-  ('P0005', 'Mie Ayam Yamin', 15000, 100);
+  ('P0003',
+'Mie Ayam Ceker',
+20000,
+100),
+  ('P0004',
+'Mie Ayam Spesial',
+25000,
+100),
+  ('P0005',
+'Mie Ayam Yamin',
+15000,
+100);
 
 SELECT
   *

@@ -49,7 +49,8 @@ UPDATE
 SET
   price = price + 5000
 WHERE
-  id = 'P0005'
+  id = 'P0005';
+ 
 SELECT
   *
 FROM
@@ -61,3 +62,6 @@ FROM
   products
 WHERE
   category IS NULL;
+  
+ UPDATE products SET category = 'Makanan' WHERE id IN ('P0004', 'P0005');
+ 
